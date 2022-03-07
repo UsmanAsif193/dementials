@@ -3,32 +3,40 @@ import React, { useEffect, useState } from "react";
 import "./MintADemental.css";
 
 const useAudio = (url) => {
-  const [audio] = useState(new Audio(url));
   const [playing, setPlaying] = useState(false);
+  const [audioRef, setAudioRef] = useState(null);
+  const toggle = () => {
+    if (audioRef) {
+      // console.log(audioRef);
 
-  const toggle = () => setPlaying(!playing);
+      if (audioRef.src !== url) {
+        audioRef.src = url;
+      }
+      // audioRef.load();
+
+      if (!playing) {
+        audioRef.play();
+      } else {
+        audioRef.pause();
+      }
+    }
+
+    setPlaying(!playing);
+  };
 
   useEffect(() => {
-    playing ? audio.play() : audio.pause();
-  }, [playing]);
-  useEffect(() => {
-    audio.addEventListener("ended", () => setPlaying(false));
-    audio.addEventListener("click", () => {
-      setPlaying(true);
-      setTimeout(() => {
-        audio.play();
-      }, 1000);
-    });
-    return () => {
-      audio.removeEventListener("ended", () => setPlaying(false));
-    };
-  }, []);
+    console.log("useEffect" + audioRef);
+    if (audioRef) {
+      audioRef.src = url;
+      audioRef.load();
+    }
+  }, [audioRef, url]);
 
-  return [playing, toggle];
+  return [playing, toggle, setAudioRef];
 };
 
 function MintADemental() {
-  const [playing, toggle] = useAudio("/songs/allSongs.mp3");
+  const [playing, toggle, setAudioRef] = useAudio("/songs/allSongs.mp3");
   return (
     <div id="MintADemental">
       <div className="img_div">
@@ -40,6 +48,7 @@ function MintADemental() {
           className={playing ? "animation___icon__spectrum" : ""}
           alt=""
         />
+        <audio ref={(c) => setAudioRef(c)} />
       </div>
     </div>
   );
