@@ -1,0 +1,156 @@
+.subscribe-area {
+  /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
+  background: transparent linear-gradient(180deg, #08073b 0%, #1b2d55 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pt-70 {
+  padding-top: 70px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.subscribe-text span {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.subscribe-text h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+.subscribe-wrapper {
+  overflow: hidden;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.subscribe2-wrapper .subscribe-form input {
+  background: #fff;
+  color: #000000;
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 1000;
+  height: 57px;
+  margin-right: 17px;
+  padding-left: 25px;
+  width: 250px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+}
+
+.subscribe2-wrapper .subscribe-form input:focus {
+  border: none;
+  outline: none;
+}
+
+.subscribe2-wrapper .subscribe-form button {
+  background: #3eace0;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Zen Dots", cursive;
+  line-height: 1;
+  padding: 18px 46px;
+  transition: all 0.3s ease 0s;
+}
+
+.h2_text {
+  font-family: "Zen Dots", cursive;
+  font-size: 38px;
+}
+.span_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.input___mint_demental[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.input___mint_demental[type="number"]::-webkit-inner-spin-button,
+.input___mint_demental[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.input____arrows {
+  bottom: 0;
+  right: 8%;
+}
+.input____arrows i {
+  cursor: pointer;
+}
+/* 
+      dd */
+/* .number-input {
+        border: 2px solid #ddd;
+        display: inline-flex;
+      }
+      
+      .number-input,
+      .number-input * {
+        box-sizing: border-box;
+      }
+      
+      .number-input button {
+        outline:none;
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
+        margin: 0;
+        position: relative;
+      }
+      
+      .number-input button:after {
+        display: inline-block;
+        position: absolute;
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900;
+        content: '\f077';
+        transform: translate(-50%, -50%) rotate(180deg);
+      }
+      .number-input button.plus:after {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      
+      .number-input input[type=number] {
+        font-family: sans-serif;
+        max-width: 5rem;
+        padding: .5rem;
+        border: solid #ddd;
+        border-width: 0 2px;
+        font-size: 2rem;
+        height: 3rem;
+        font-weight: bold;
+        text-align: center;
+      } */
+
+@media (max-width: 776px) {
+  .subscribe-area {
+    text-align: center;
+  }
+  .subscribe2-wrapper .subscribe-form input {
+    width: 50vw;
+    margin-right: 0;
+  }
+}

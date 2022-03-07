@@ -1,0 +1,31 @@
+.gallerySection {
+  padding: 80px 0px;
+  background-color: #000;
+}
+.galleryHeading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font: normal normal normal 66px/179px Zen Dots;
+  letter-spacing: 8.12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.gallerySection .item img {
+  width: 100%;
+}
+.mobileCarousel {
+  display: none;
+}
+@media (max-width: 776px) {
+  .mobileCarousel {
+    display: block;
+  }
+  .pcCarousel {
+    display: none;
+  }
+  .galleryHeading h1 {
+    font: normal normal normal 32px/40px Zen Dots;
+  }
+}

@@ -1,0 +1,230 @@
+/* 
+#logo{
+    width: 300px;
+    height: 60px;
+}
+
+.bg_main{
+    background-color: transparent;
+    top: 0;
+    z-index: 9999;
+}
+
+.nav-link{
+    font-family: 'Zen Dots', cursive;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+}
+
+.navbar-toggler{
+    background-color: #FFFFFF !important;
+}
+
+.btn-connect{
+    border: none;
+    background-color: #3EACE0;
+    height: 60px;
+    width: 260px;
+    text-align: center;
+    color: #FFFFFF !important;
+}
+
+.gg{
+    display: flex !important;
+    justify-content: space-around !important;
+} */
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9999999;
+  padding: 0 30px 15px 30px !important;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 30px;
+}
+
+.nav > .nav-header {
+  display: inline;
+  /* float: inline-start; */
+  float: left;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+}
+.nav > .nav-links > ul li a {
+  /* display: block; */
+  padding: 8px 11px;
+  color: #fff;
+  font: normal normal normal 14px/17px Zen Dots;
+  text-decoration: none;
+}
+.nav > .nav-links > ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  padding: 0px 10px;
+}
+.nav > .nav-links > ul li {
+  display: inline-block;
+  background-color: transparent;
+}
+/* .nav > .nav-links > ul li a:hover{
+      background-color: #0b65af;
+      border-radius: 5px;
+  } */
+
+.nav > #nav-check {
+  display: none;
+}
+
+.nav .nav-links ul a.icon img {
+  padding: 0px 15px;
+}
+
+.nav .nav-links ul a i {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 7px;
+  margin-left: 5px;
+}
+.close____icon___navbar {
+  font-size: 26px;
+  color: white;
+}
+.walletBtn a {
+  background-color: #3eace0;
+  text-transform: uppercase;
+  padding: 20px 15px !important;
+}
+.nav-title img {
+  width: 400px;
+  height: auto;
+}
+@media (max-width: 1440px) {
+  .nav {
+    bottom: 0;
+  }
+  .nav > .nav-links > ul li a {
+    font-size: 12px;
+  }
+  .nav-title img {
+    width: 250px;
+  }
+}
+@media (max-width: 1280px) {
+  .nav > .nav-links > ul li a {
+    padding: 0 8px;
+  }
+  .nav .nav-links ul a.icon img {
+    padding: 0 8px !important;
+  }
+  .walletBtn a {
+    padding: 10px 15px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .nav > .nav-links > ul li a {
+    padding: 0 6px;
+  }
+  .nav .nav-links ul a.icon img {
+    padding: 0 6px !important;
+  }
+  .nav > .nav-links > ul li a {
+    font: normal normal normal 12px/14px Zen Dots;
+  }
+  .walletBtn a {
+    padding: 10px 15px !important;
+  }
+}
+@media (max-width: 1082px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    z-index: 9;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,
+  .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 0px;
+    left: 0px;
+  }
+  /* .nav > .nav-links > ul li a {
+      display: block;
+      width: 100%;
+    } */
+
+  /*   */
+
+  .nav > .nav-links > ul li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+    background-color: #333;
+  }
+  /* .nav > .nav-links > ul li a{
+          margin-left: 40%;
+      }
+      .nav .nav-links ul a.icon{
+        margin-left: 33%;
+      } */
+
+  /*   */
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    /* height: calc(100vh - 50px); */
+    height: auto;
+    overflow-y: auto;
+    padding: 50px 0px;
+  }
+  .walletBtn {
+    padding-top: 25px !important;
+  }
+  .walletBtn a {
+    padding: 10px 15px !important;
+  }
+}
+@media (max-width: 600px) {
+  .nav-title img {
+    width: 280px;
+    height: auto;
+  }
+}
+@media (max-width: 400px) {
+  .nav-title img {
+    width: 200px;
+    height: auto;
+  }
+}

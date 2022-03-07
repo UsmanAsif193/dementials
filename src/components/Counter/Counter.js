@@ -1,0 +1,63 @@
+import React, { useState } from "react";
+
+//css
+import "./Counter.css";
+
+function Counter() {
+  const [value, setValue] = useState(0);
+  const handleChange = (e) => {
+    setValue(parseInt(e.target.value) + 1);
+  };
+  if (value < 0) setValue(0);
+  return (
+    <section class="subscribe-area pb-50 pt-70" id="MINT">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="subscribe-text mb-15">
+              <h2 className="h2_text">MINT A DEMENTAL</h2>
+              <span className="span_text">MINT DATE: TBA</span>
+            </div>
+          </div>
+          <div className="col-md-1"></div>
+          <div class="col-md-5 mt-3">
+            <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+              <div class="subscribe-form">
+                <form action="#" className="d-flex align-items-center">
+                  {/* <div className='number-input'> */}
+
+                  <input
+                    type="number"
+                    className="input___mint_demental"
+                    value={value}
+                    onChange={handleChange}
+                  />
+                  <div className="d-flex w-auto position-relative justify-content-around flex-column text-black input____arrows">
+                    <i
+                      class="fas fa-arrow-up"
+                      onClick={() => setValue(value + 1)}
+                    ></i>
+                    <i
+                      class="fas fa-arrow-down"
+                      onClick={() => setValue(value - 1)}
+                    ></i>
+                  </div>
+                  {/* <div className='plus-minus'>
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus"></button>
+                                            <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+                                        </div> */}
+
+                  {/* </div> */}
+
+                  <button>MINT</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Counter;

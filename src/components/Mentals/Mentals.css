@@ -1,0 +1,64 @@
+.meantals {
+  background-color: #000000;
+  min-height: 400px;
+  padding: 0px 40px;
+  padding-bottom: 40px;
+}
+
+.meantalsHeading {
+  text-align: center;
+  font: normal normal normal 49px/59px Zen Dots;
+  letter-spacing: 6.03px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 80px;
+}
+
+.owlCarousel-img-mentals {
+  width: auto !important;
+  height: auto !important;
+}
+.mentalCarousel .item img {
+  width: 50%;
+  height: auto;
+}
+.owl-carousel .owl-item img {
+  display: inline !important;
+}
+
+.userName {
+  font-family: "Zen Dots", cursive;
+  font: normal normal normal 20px/27px Zen Dots;
+  letter-spacing: 2.83px;
+  color: #ffffff;
+}
+
+.userPos {
+  font: normal normal 600 18px/27px Roboto;
+  letter-spacing: 0.88px;
+  color: #707070;
+}
+
+.userDesc {
+  font: normal normal 300 16px/27px Roboto;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+
+/* .user-div{
+    padding-right: 10px;
+    padding-left: 10px;
+} */
+
+@media (max-width: 776px) {
+  .meantals {
+    padding: 0px;
+  }
+  .userName {
+    font-family: "Zen Dots", cursive;
+    font: normal normal normal 12px/17px Zen Dots;
+    letter-spacing: 2.83px;
+    color: #ffffff;
+  }
+}

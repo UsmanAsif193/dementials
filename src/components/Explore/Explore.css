@@ -1,0 +1,18 @@
+.demo-height{
+
+    background-color: #000000;
+    padding: 200px 0px;
+}
+
+.expl-heading{
+    font: normal normal normal 66px/79px Zen Dots;
+    letter-spacing: 8.12px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+@media(max-width:776px){
+    .expl-heading {
+        font: normal normal normal 36px/79px Zen Dots;
+    }
+}

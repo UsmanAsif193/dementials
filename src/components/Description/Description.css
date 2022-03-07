@@ -1,0 +1,73 @@
+.bg_image_1 {
+  /* background: transparent url('/public/bg_images/bg.png') 0% 0% no-repeat padding-box; */
+  height: 115vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.desc p {
+}
+
+.mt-10 {
+  margin-top: 160px !important;
+}
+
+.mr-10 {
+  padding-right: 80px !important;
+}
+
+.svg-icon {
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  cursor: pointer;
+}
+.rightText {
+  position: absolute;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+.rightText p {
+  color: #fff;
+  font-family: "Zen Dots", cursive;
+  text-align: left;
+  font-size: 15px;
+  line-height: 34px;
+  letter-spacing: 0.68px;
+}
+.rightSideImg {
+  position: absolute;
+}
+.rightSideImg img {
+  min-width: 99vw;
+  width: 100%;
+  object-fit: cover;
+  height: 115vh;
+}
+/* #DISCOVER .container-fluid{
+    padding: 0px !important;
+}*/
+#DISCOVER .container-fluid .row > * {
+  padding: 0px !important;
+}
+@media (max-width: 990px) {
+  .bg_image_1 {
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .rightSideImg {
+    position: relative;
+  }
+  .rightText {
+    position: relative;
+    background-color: #110d3e;
+    padding: 20px;
+  }
+  .rightSideImg img {
+    width: 160%;
+    height: 100%;
+  }
+}

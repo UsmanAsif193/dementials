@@ -1,0 +1,75 @@
+.img_div img {
+  position: absolute;
+  bottom: 0px;
+  width: auto;
+  height: 80%;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.animation___icon__spectrum {
+  animation: animation_1 1s linear infinite;
+}
+@keyframes animation_1 {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.icon__spectrum img {
+  position: absolute;
+  bottom: 5vh;
+  left: 10vh;
+  cursor: pointer;
+}
+
+@media (max-width: 1160px) {
+  .img_div img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 776px) {
+  .img_div img {
+    object-fit: contain;
+  }
+  .icon__spectrum img {
+    bottom: 30vh;
+    left: 3vh;
+  }
+}
+
+@media (max-width: 420px) {
+  .img_div img {
+    height: 78%;
+  }
+}
+
+@media (max-width: 380px) {
+  .img_div img {
+    height: 73%;
+  }
+}
+@media (max-width: 350px) {
+  .img_div img {
+    height: 71%;
+  }
+}
+
+@media (max-width: 330px) {
+  .img_div img {
+    height: 68%;
+  }
+}
+
+@media (max-width: 310px) {
+  .img_div img {
+    height: 66%;
+  }
+}
