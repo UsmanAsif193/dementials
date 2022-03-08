@@ -13,3 +13,7 @@
     height: 85vh;
   }
 }
+
+.overflow-hidden{
+  overflow: hidden;
+}

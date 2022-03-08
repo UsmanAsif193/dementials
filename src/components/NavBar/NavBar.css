@@ -173,14 +173,13 @@
     display: block;
     width: 100%;
     background-color: #333;
-    height: 0px;
     -webkit-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
     -moz-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
     -o-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
     transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
     overflow-y: hidden;
     top: 0px;
-    left: 0px;
+    left: 100vw;
   }
   /* .nav > .nav-links > ul li a {
       display: block;
@@ -204,12 +203,13 @@
 
   /*   */
   .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
+    padding: 50px 0px;
+
   }
   .nav > #nav-check:checked ~ .nav-links {
-    height: auto;
     overflow-y: auto;
     padding: 50px 0px;
+    left: 0;
   }
   .walletBtn {
     padding-top: 25px !important;

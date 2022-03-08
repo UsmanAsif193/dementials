@@ -16,22 +16,22 @@ import Gallery from '../Gallery/Gallery';
 
 function Layout() {
     return (
-        <div>
-           <div className='bg_image'>
-                <NavBar />
-                <MintADemental />
-            </div> 
-            <Counter />
-            <Description />  
-            <Explore />
-            <Mentalverse /> 
-            <Gallery/>
-            <Roadmap />
-            <Mentals />
-            <Faq />
-            <Footer />
+      <div className="overflow-hidden">
+        <div className="bg_image">
+          <NavBar />
+          <MintADemental />
         </div>
-    )
+        <Counter />
+        <Description />
+        <Explore />
+        <Mentalverse />
+        <Gallery />
+        <Roadmap />
+        <Mentals />
+        <Faq />
+        <Footer />
+      </div>
+    );
 }
 
 export default Layout
