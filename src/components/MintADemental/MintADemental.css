@@ -47,18 +47,18 @@
 
 @media (max-width: 420px) {
   .img_div img {
-    height: 78%;
+    height: 74%;
   }
 }
 
 @media (max-width: 380px) {
   .img_div img {
-    height: 73%;
+    height: 71%;
   }
 }
 @media (max-width: 350px) {
   .img_div img {
-    height: 71%;
+    height: 69%;
   }
 }
 
