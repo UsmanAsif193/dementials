@@ -68,9 +68,16 @@
     height: 87%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 525px) {
   .img_div img {
     height: 82%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .img_div img {
+    height: 79%;
   }
 }
 @media (max-width: 450px) {
