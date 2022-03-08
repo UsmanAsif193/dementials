@@ -38,10 +38,44 @@
 @media (max-width: 776px) {
   .img_div img {
     object-fit: contain;
+    height: 112%;
+
   }
   .icon__spectrum img {
     bottom: 30vh;
     left: 3vh;
+  }
+}
+
+@media (max-width: 700px) {
+  .img_div img {
+    height: 105%;
+  }
+}
+@media (max-width: 650px) {
+  .img_div img {
+    height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .img_div img {
+    height: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .img_div img {
+    height: 87%;
+  }
+}
+@media (max-width: 500px) {
+  .img_div img {
+    height: 82%;
+  }
+}
+@media (max-width: 450px) {
+  .img_div img {
+    height: 76%;
   }
 }
 
@@ -51,25 +85,36 @@
   }
 }
 
+@media (max-width: 400px) {
+  .img_div img {
+    height: 72%;
+  }
+}
+
 @media (max-width: 380px) {
   .img_div img {
-    height: 71%;
+    height: 70%;
+  }
+}
+@media (max-width: 365px) {
+  .img_div img {
+    height: 68%;
   }
 }
 @media (max-width: 350px) {
   .img_div img {
-    height: 69%;
+    height: 66%;
   }
 }
 
 @media (max-width: 330px) {
   .img_div img {
-    height: 68%;
+    height: 65%;
   }
 }
 
 @media (max-width: 310px) {
   .img_div img {
-    height: 66%;
+    height: 62%;
   }
 }
