@@ -88,19 +88,19 @@
 
 @media (max-width: 430px) {
   .img_div img {
-    height: 67%;
+    height: 66%;
   }
 }
 
 @media (max-width: 420px) {
   .img_div img {
-    height: 66%;
+    height: 63%;
   }
 }
 
 @media (max-width: 400px) {
   .img_div img {
-    height: 65%;
+    height: 64%;
   }
 }
 

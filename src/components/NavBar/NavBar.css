@@ -174,10 +174,10 @@
     width: 100%;
     background-color: #333;
     height: 0px;
-    -webkit-transition: all 0.5s cubic-bezier(0, 0.46, 0.49, 0.76);
-    -moz-transition: all 0.5s cubic-bezier(0, 0.46, 0.49, 0.76);
-    -o-transition: all 0.5s cubic-bezier(0, 0.46, 0.49, 0.76);
-    transition: all 0.5s cubic-bezier(0, 0.46, 0.49, 0.76);
+    -webkit-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
+    -moz-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
+    -o-transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
+    transition: all 0.5s cubic-bezier(0.32, 0.52, 0.49, 0.76);
     overflow-y: hidden;
     top: 0px;
     left: 0px;
