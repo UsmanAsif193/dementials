@@ -19,6 +19,8 @@
 .mentalverse-bottom .mentalverse-heading a {
   color: white;
   text-decoration: none;
+  font-family: "Arcade";
+  font-size: 48px;
 }
 @keyframes animation_1 {
   0%,

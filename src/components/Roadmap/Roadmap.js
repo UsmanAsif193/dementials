@@ -19,23 +19,19 @@ function Roadmap() {
                     <h2>DISCORD META_RPG</h2>
                     <div className="pointDescription">
                       <p>
-                        {" "}
                         - Develop a community-narrative-driven metaverse
                         role-playing-game inside of Discord
                       </p>
                       <p>
-                        {" "}
                         - Develop and add 3D Mini-Game inside the Discord RPG
                       </p>
                       <p> - Provide Gameplay sneak peeks of Season 2</p>
                       <p> - Mint 5,000 Dgenesis Dementals</p>
                       <p>
-                        {" "}
                         - Donate 5% of revenue to a Mental Health Charity chosen
                         by the community
                       </p>
                       <p>
-                        {" "}
                         - Distribute 10% of revenue back into The Treasury to
                         fund development of Season 3
                       </p>
@@ -46,24 +42,21 @@ function Roadmap() {
                     <h2>DISCORD META_RPG</h2>
                     <div className="pointDescription">
                       <p>
-                        {" "}
-                        - Develop a community-narrative-driven metaverse
-                        role-playing-game inside of Discord
+                        - Release $MNTL token as well as tokenized mineable
+                        resources
                       </p>
                       <p>
-                        {" "}
-                        - Develop and add 3D Mini-Game inside the Discord RPG
+                        - [Currently In Development] Complete development and
+                        launch of P2E 2v2v2v2v2 Battle Royale style shooter
                       </p>
-                      <p> - Provide Gameplay sneak peeks of Season 2</p>
-                      <p> - Mint 5,000 Dgenesis Dementals</p>
+                      <p> - Announce P2E mechanics</p>
+                      <p> - Release the follow-up 5K Dementals Collection</p>
                       <p>
-                        {" "}
-                        - Donate 5% of revenue to a Mental Health Charity chosen
-                        by the community
+                        - Donate 10% of revenue to the same Mental Health
+                        Charity previously chosen by the community.
                       </p>
                       <p>
-                        {" "}
-                        - Distribute 10% of revenue back into The Treasury to
+                        - Distribute 20% of revenue back into The Treasury to
                         fund development of Season 3
                       </p>
                     </div>
@@ -73,25 +66,29 @@ function Roadmap() {
                     <h2>DISCORD META_RPG</h2>
                     <div className="pointDescription">
                       <p>
-                        {" "}
-                        - Develop a community-narrative-driven metaverse
-                        role-playing-game inside of Discord
+                        - Begin development of our flagship P2E open-world AAA
+                        style space explorer game
+                      </p>
+                      <p>
+                        - Model and airdrop 3D counterparts for all 10,000
+                        Dementals useable for Season 3
                       </p>
                       <p>
                         {" "}
-                        - Develop and add 3D Mini-Game inside the Discord RPG
-                      </p>
-                      <p> - Provide Gameplay sneak peeks of Season 2</p>
-                      <p> - Mint 5,000 Dgenesis Dementals</p>
-                      <p>
-                        {" "}
-                        - Donate 5% of revenue to a Mental Health Charity chosen
-                        by the community
+                        - Model and mint in-game assets useable for Season 3{" "}
                       </p>
                       <p>
                         {" "}
-                        - Distribute 10% of revenue back into The Treasury to
-                        fund development of Season 3
+                        - Donate 15% of revenue to the same Mental Health
+                        Charity previously chosen by the community
+                      </p>
+                      <p>
+                        - Distribute 30% of revenue from the sale of in-game
+                        assets back to $MNTL holders
+                      </p>
+                      <p>
+                        - Work with the community to further enhance The
+                        Mentalverse for Season 4
                       </p>
                     </div>
                   </li>

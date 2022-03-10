@@ -9,3 +9,9 @@
     src: url("../public/fonts/Yumo.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Arcade";
+    src: url("../public/fonts/ArcadeClassic.ttf") format("ttf");
+    src: url("../public/fonts/ArcadeClassic.woff") format("woff");
+}
+

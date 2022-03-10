@@ -27,15 +27,15 @@ function Description() {
                   planets, their vital resources and the species that originate
                   them as you continue to explore.
                 </p>
-                <p className="d-none d-lg-block">
+                <p>
                   The Dgenesis Collection of 5,000 individually unique GameFi
                   avatars represent your citizenship and key to The Mentalverse.
                   By holding your Demental, you will have access to play as your
                   avatar in the current, and future Seasons of this Play-2-Earn
-                  meta.{" "}
+                  meta.
                 </p>
 
-                <p className="d-none d-lg-block">
+                <p>
                   Each Season represents an evolutionary milestone for the
                   project. The Mentalverse | Season 1 is our proof-of-concept
                   and is playable NOW! We’ve managed to develop the first-ever
