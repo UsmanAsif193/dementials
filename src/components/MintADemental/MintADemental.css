@@ -39,7 +39,6 @@
   .img_div img {
     object-fit: contain;
     height: 112%;
-
   }
   .icon__spectrum img {
     bottom: 30vh;
@@ -74,10 +73,9 @@
   }
 }
 
-
 @media (max-width: 500px) {
   .img_div img {
-    height: 79%;
+    height: 9%;
   }
 }
 @media (max-width: 450px) {
@@ -106,7 +104,7 @@
 
 @media (max-width: 380px) {
   .img_div img {
-    height: 63%;
+    height: 77%;
   }
 }
 @media (max-width: 365px) {
