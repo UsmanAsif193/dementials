@@ -39,7 +39,7 @@ function Roadmap() {
                   </li>
                   <li>
                     <h1>SEASON 02:</h1>
-                    <h2>DISCORD META_RPG</h2>
+                    <h2>3D BATTLE ROYALE SHOOTER</h2>
                     <div className="pointDescription">
                       <p>
                         - Release $MNTL token as well as tokenized mineable
@@ -63,7 +63,7 @@ function Roadmap() {
                   </li>
                   <li>
                     <h1>SEASON 03:</h1>
-                    <h2>DISCORD META_RPG</h2>
+                    <h2>P2E OPEN-SYSTEM AAA STYLE SPACE EXPLORER</h2>
                     <div className="pointDescription">
                       <p>
                         - Begin development of our flagship P2E open-world AAA

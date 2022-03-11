@@ -62,8 +62,10 @@ function Mentals() {
               <h4 className="userName">Adam B. Levine</h4>
               <p className="userPos">Project Advisor</p>
               <p className="userDesc">
-                Managing Editor of Coindesk Founder of Pixelmind & Tokenly Host
-                for Speaking of Bitcoin Podcast
+                Managing Editor of Coindesk <br />
+                Founder of Pixelmind & Tokenly
+                <br />
+                Host for Speaking of Bitcoin Podcast
               </p>
             </div>
           </div>
@@ -73,7 +75,8 @@ function Mentals() {
               <h4 className="userName">Feral</h4>
               <p className="userPos">Lead Unity Dev</p>
               <p className="userDesc">
-                Experienced UI / UX Designer Licensed Console Game Developer
+                Experienced UI / UX Designer <br />
+                Licensed Console Game Developer <br />
                 Studio Director at Feralblast
               </p>
             </div>
@@ -87,7 +90,8 @@ function Mentals() {
               <h4 className="userName">SPPR</h4>
               <p className="userPos">Blockchain Engineer</p>
               <p className="userDesc">
-                Experienced Smart Contract Dev Full Stack Web Dev
+                Experienced Smart Contract Dev <br />
+                Full Stack Web Dev
               </p>
             </div>
           </div>

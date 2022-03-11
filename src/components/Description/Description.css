@@ -48,26 +48,23 @@
 }
 
 .rightText.mobileCarousel .owl-carousel .owl-nav button.owl-prev{
-  color: white !important;
-  background-color: transparent !important;
-  padding-left: 30px !important;
-  padding-bottom: 10px !important;
-  padding-right: 30px !important;
+  color: black !important;
+  background-color: white !important;
   border-radius: 999px;
-  width: 100px;
-  font-size: 60px;
+  width: 45px;
+  font-size: 30px;
 }
 
 .rightText.mobileCarousel .owl-carousel .owl-nav button.owl-next{
-  color: white !important;
-  background-color: transparent !important;
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-  padding-bottom: 10px !important;
-  font-size: 60px;
+  color: black !important;
+  background-color: white !important;
+  font-size: 30px;
   border-radius: 999px;
-  width: 100px;
+  width: 45px;
 
+}
+.owl-theme .owl-nav{
+  text-align: start !important;
 }
 
 

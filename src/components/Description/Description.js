@@ -10,8 +10,12 @@ const mobileOptions = {
   responsiveClass: true,
   nav: true,
   dots: false,
-  autoplay: true,
-  // navText: ["Prev", "Next"],
+  autoplay: false,
+
+  navText: [
+    '<i class="fas fa-arrow-left"></i>',
+    '<i class="fas fa-arrow-right"></i>',
+  ],
   smartSpeed: 1000,
   responsive: {
     0: {
