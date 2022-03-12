@@ -1,7 +1,7 @@
 .subscribe-area {
   /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%); */
-  background: transparent linear-gradient(180deg, #08073b 0%, #1b2d55 100%) 0%
-    0% no-repeat padding-box;
+  /* background: transparent linear-gradient(180deg, #08073b 0%, #1b2d55 100%) 0%
+    0% no-repeat padding-box; */
 }
 
 .pb-50 {
