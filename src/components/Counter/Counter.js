@@ -10,7 +10,11 @@ function Counter() {
   };
   if (value < 0) setValue(0);
   return (
-    <section class="subscribe-area pb-50 pt-70" id="MINT">
+    <section
+      class="subscribe-area "
+      id="MINT"
+      style={{ height: "35vh", display: "flex", alignItems: "center" }}
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-6">
