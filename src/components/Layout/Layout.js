@@ -16,7 +16,7 @@ import Gallery from '../Gallery/Gallery';
 
 function Layout() {
     return (
-      <div className="overflow-hidden">
+      <div className="">
         <div className="bg_image">
           <NavBar />
           <MintADemental />
