@@ -4,16 +4,10 @@
     0% no-repeat padding-box; */
 }
 
-.pb-50 {
-  padding-bottom: 50px;
-}
-.pt-70 {
-  padding-top: 70px;
-}
 
-.mb-15 {
-  margin-bottom: 15px;
-}
+
+
+
 
 .subscribe-text span {
   font-size: 12px;
@@ -25,15 +19,12 @@
   color: #fff;
   font-size: 36px;
   font-weight: 300;
-  margin-bottom: 0;
-  margin-top: 6px;
+ 
 }
 .subscribe-wrapper {
   overflow: hidden;
 }
-.mb-15 {
-  margin-bottom: 15px;
-}
+
 
 .subscribe2-wrapper .subscribe-form input {
   background: #fff;

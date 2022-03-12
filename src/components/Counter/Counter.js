@@ -18,14 +18,14 @@ function Counter() {
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="subscribe-text mb-15">
+            <div class="subscribe-text">
               <h2 className="h2_text">MINT A DEMENTAL</h2>
               <span className="span_text">MINT DATE: TBA</span>
             </div>
           </div>
           <div className="col-md-1"></div>
           <div class="col-md-5 mt-3">
-            <div class="subscribe-wrapper subscribe2-wrapper mb-15">
+            <div class="subscribe-wrapper subscribe2-wrapper">
               <div class="subscribe-form">
                 <form action="#" className="d-flex align-items-center">
                   {/* <div className='number-input'> */}
