@@ -12,3 +12,26 @@
 .overflow-hidden {
   overflow: hidden;
 }
+@media (max-width: 768px){
+  .bg_image{
+    height: 92vh;
+  }
+}
+
+@media (max-width: 450px){
+  .bg_image{
+    height: 88vh;
+  }
+}
+
+@media (max-width: 400px){
+  .bg_image{
+    height: 91vh;
+  }
+}
+
+@media (max-width: 350px){
+  .bg_image{
+    height: 94vh;
+  }
+}

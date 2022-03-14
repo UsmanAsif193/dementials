@@ -88,4 +88,8 @@
   .text-show img {
     object-fit: cover;
   }
+  .mentalverse-top {
+  
+    transform: translate(-50%, 100%);
+  }
 }

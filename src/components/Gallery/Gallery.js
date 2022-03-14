@@ -41,7 +41,6 @@ const options1 = {
   nav: false,
   dots: false,
   autoplay: true,
-  // navText: ["Prev", "Next"],
   smartSpeed: 1000,
   responsive: {
     0: {
@@ -69,7 +68,7 @@ function Gallery() {
         <Container>
           <Row>
             <div className="galleryHeading">
-              <h1>.DGENESIS GALLERY</h1>
+              <h1>DGENESIS GALLERY</h1>
             </div>
 
             <div className="pcCarousel">
