@@ -13,7 +13,7 @@ function Counter() {
     <section
       class="subscribe-area "
       id="MINT"
-      style={{ height: "40vh", display: "flex", alignItems: "center" }}
+      style={{ padding: "10vh 0", display: "flex", alignItems: "center" }}
     >
       <div class="container">
         <div class="row">
