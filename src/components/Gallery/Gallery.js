@@ -85,6 +85,12 @@ function Gallery() {
                 <div className="item">
                   <img src={"./user-logo/N5.png"} alt="gallery" />
                 </div>
+                <div className="item">
+                  <img src={"./user-logo/E4.jpeg"} alt="gallery" />
+                </div>
+                <div className="item">
+                  <img src={"./user-logo/F3.jpeg"} alt="gallery" />
+                </div>
               </OwlCarousel>
               <OwlCarousel className="owl-theme mt-3 text-center" {...options}>
                 <div className="item">
@@ -98,6 +104,13 @@ function Gallery() {
                 </div>
                 <div className="item">
                   <img src={"./user-logo/N2.png"} alt="gallery" />
+                </div>
+                <div className="item">
+                  <img src={"./user-logo/F4.jpeg"} alt="gallery" />
+                </div>
+
+                <div className="item">
+                  <img src={"./user-logo/E3.jpeg"} alt="gallery" />
                 </div>
               </OwlCarousel>
             </div>
@@ -116,6 +129,12 @@ function Gallery() {
                 <div className="item">
                   <img src={"./user-logo/N5.png"} alt="gallery" />
                 </div>
+                <div className="item">
+                  <img src={"./user-logo/F4.jpeg"} alt="gallery" />
+                </div>
+                <div className="item">
+                  <img src={"./user-logo/E3.jpeg"} alt="E3vdsav" />
+                </div>
               </OwlCarousel>
               <OwlCarousel className="owl-theme mt-3 text-center" {...options1}>
                 <div className="item">
@@ -129,6 +148,13 @@ function Gallery() {
                 </div>
                 <div className="item">
                   <img src={"./user-logo/N2.png"} alt="gallery" />
+                </div>
+                <div className="item">
+                  <img src={"./user-logo/F3.jpeg"} alt="F3dfdasd" />
+                </div>
+
+                <div className="item">
+                  <img src={"./user-logo/E4.jpeg"} alt="gallery" />
                 </div>
               </OwlCarousel>
             </div>
