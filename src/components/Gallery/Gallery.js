@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import OwlCarousel from "react-owl-carousel";
+import OwlCarousel from "react-owl-carousel-rtl";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 //css
@@ -14,7 +14,7 @@ const options = {
   dots: false,
   autoplay: true,
   // navText: ["Prev", "Next"],
-  smartSpeed: 1000,
+  smartSpeed: 500,
   responsive: {
     0: {
       items: 1,
@@ -41,7 +41,7 @@ const options1 = {
   nav: false,
   dots: false,
   autoplay: true,
-  smartSpeed: 1000,
+  smartSpeed: 500,
   responsive: {
     0: {
       items: 2,
@@ -72,7 +72,12 @@ function Gallery() {
             </div>
 
             <div className="pcCarousel">
-              <OwlCarousel className="owl-theme mt-2 text-center" {...options}>
+              <OwlCarousel
+                className="owl-theme mt-2 text-center"
+                {...options}
+                rtl={true}
+                rtlClass={"owl-rtl"}
+              >
                 <div className="item">
                   <img src={"./user-logo/E7.png"} alt="gallery" />
                 </div>
@@ -116,7 +121,12 @@ function Gallery() {
             </div>
 
             <div className="mobileCarousel">
-              <OwlCarousel className="owl-theme mt-2 text-center" {...options1}>
+              <OwlCarousel
+                className="owl-theme mt-2 text-center"
+                {...options1}
+                rtl={true}
+                rtlClass={"owl-rtl"}
+              >
                 <div className="item">
                   <img src={"./user-logo/E7.png"} alt="gallery" />
                 </div>
