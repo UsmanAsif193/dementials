@@ -64,7 +64,7 @@ const options1 = {
 function Gallery() {
   return (
     <>
-      <section className="gallerySection" id="DISCOVER__1">
+      <section className="gallerySection" id="GALLERY">
         <Container>
           <Row>
             <div className="galleryHeading">

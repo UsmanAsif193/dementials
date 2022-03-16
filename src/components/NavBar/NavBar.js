@@ -41,7 +41,7 @@ function NavBar() {
               <a href="#PRICING">PLAY</a>
             </li>
             <li>
-              <a href="#DISCOVER__1">DISCOVER</a>
+              <a href="#GALLERY">GALLERY</a>
             </li>
             <li>
               <a href="#ROADMAP">ROADMAP</a>
